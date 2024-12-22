@@ -263,11 +263,14 @@ img {
 .content {
     width: 40vw;
     flex: 1 1 auto;
-    padding: 40px;
     display: flex;
     flex-flow: column;
     justify-content: center;
     background-color: rgb(245, 245, 245);
+}
+
+.introduction {
+    padding: 0px 90px 0px 40px;
 }
 
 p {
@@ -278,9 +281,49 @@ p {
 .first-para {
     min-width: 300px;
     margin: 20px 0px;
-    padding: 0px 50px 0px 0px;
 }
 
 .second-para {
     margin-bottom: 30px;
+}
+
+.sign-up {
+    background-color: white;
+}
+
+.title, .form {
+    color: rgb(62, 62, 62);
+    p {
+        margin: 20px 0px 10px 40px;
+    }
+	form {
+		margin: 10px 0px 25px 40px;
+	}
+}
+
+form > div {
+	color: rgb(71, 71, 71);
+	letter-spacing: 0.1rem;
+	font-size: 0.8rem;
+
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 75px;
+}
+
+form > div > div {
+	margin-bottom: 20px;
+	margin-right: 75px;
+
+}
+
+input {
+	width: 15rem;
+	height: 1.8rem;
+}
+
+button {
+	max-width: 200px;
+	height: 40px;
+	margin: 30px 40px;
 }
