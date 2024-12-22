@@ -243,10 +243,6 @@ img {
     src: url(./fonts/Norse-Bold.otf);
 }
 
-/* * {
-    font-family:'Norse Bold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} */
-
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -340,4 +336,46 @@ button {
 		color: #596D48;
 		text-decoration-line: none;
 	}
+}
+
+.img {
+	position: relative;
+}
+
+.logo p {
+	opacity: 1;
+}
+
+.logo {
+	position: absolute;
+	top: 8rem;
+	background-color: rgba(29, 29, 29, 0.5); /* Semi-transparent white */
+	/* background-color: darkgrey; */
+	/* opacity: 0.5; */
+	width: 563.53px;
+	color: white;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.logo img {
+	max-width: 100px;
+	flex: 1 1 auto;
+	opacity: 1;
+}
+
+.logo-title p {
+	font-size: 7rem;
+    font-family:'Norse Bold', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	flex: 1 1 auto;
+	color: white;
+}
+
+.logo .logo-title {
+	align-self: flex-start;
+}
+
+.holder {
+	width: fit-content;
 }
