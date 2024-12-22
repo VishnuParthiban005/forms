@@ -323,7 +323,21 @@ input {
 }
 
 button {
-	max-width: 200px;
-	height: 40px;
+	max-width: 240px;
+	height: 48px;
 	margin: 30px 40px;
+	background-color: #596D48;
+	color: white;
+	border: 0px;
+	border-radius: 8px;
+	font-weight: 500;
+}
+
+.content > p {
+	margin-left: 40px;
+	font-size: 1rem;
+	a {
+		color: #596D48;
+		text-decoration-line: none;
+	}
 }
